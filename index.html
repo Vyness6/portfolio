@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="description" content="This is my html web page">
+        
+        <title>Personal Portfolio</title>
+        
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/0e5720e183.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <div id="header">
+        <div class="container">
+            <nav>
+              <img src="images/my name.png" class="logo">
+              <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+            <h1>Hi, I'm <span>Vanessa</span><br>Hope From Kenya</h1>
+         </div>
+      </div>
+     </div>
+     <!-- -----------about------------ -->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+            </div>
+            <div class="about-col-1">
+               <img src="images/me avatar.png" width="500" height="500">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a full stack web developer focusing on designing aesthetic web pages and creating fun apps</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web app interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Building apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents active-tab" id="experience">
+                    <ul>
+                        <li><span>2020-2022</span><br>Training at AH institute</li>
+                        <li><span>2022-2024</span><br>Team leader at All app LLC.</li>
+                        <li><span>2024</span><br>Internship at Smart Kr.</li>
+                    </ul>
+
+                </div>
+                <div class="tab-contents active-tab" id="education">
+                    <ul>
+                        <li><span>2019</span><br>Designing Training at Et institute</li>
+                        <li><span>2019</span><br>MBA from Jitahidi Institute of Technology.</li>
+                        <li><span>2015</span><br>BBA from Jitahidi Institute of Technology.</li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+        
+        </div>
+     </div>
+     <!-- --------services--------- -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web design</h2>
+                        <p>I offer web design services for any website.We use amazing visual to make your web look appealing and catch the eye.</p>
+                        <a href="a">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>UI/UX design</h2>
+                        <p>I offer UI/UX design services for any website.We use the most trending features to ensure you are up to date with the advancing technology.</p>
+                        <a href="a">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>App design</h2>
+                        <p>I offer App design services for any website.Amazing features that make your app stand out and attract the eye of your viewers.</p>
+                        <a href="a">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ----------portfolio----------- -->
+       <div id="Portfolio">
+          <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work 1.jpg">
+                    <div class="layer">
+                        <h3>Food App</h3>
+                        <p>The app allows you to order any food you desireand have it delivered to your doorstep in minutes.
+                        Download it from playstore and appstore.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work 2.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app allows you to browse your favourite music from wherever you are.
+                        Download it from playstore and appstore</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+          </div>
+       </div>
+            <!-- ----------contact---------- -->
+             <div id="contact">
+                <div class="container">
+                    <div class="row">
+                     <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                        <p><i class="fa-solid fa-phone"></i>0743491183</p>
+                        <div class="social-icons">
+                            <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-telegram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/CV.docx" download class="btn btn2">Download CV</a>
+                     </div>
+                     <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                     </div>
+                
+             </div>
+
+
+
+        </main>
+        <footer class="home-footer" >
+            <p>&copy; 2025.Vanessa. Made with love. All rights preserved.</p>
+        </footer>
+        
+        <script>
+              
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+            
+
+
+        </script>
+    </body>
+</html>
